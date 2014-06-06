@@ -1,0 +1,15 @@
+<atlassian-plugin key="${atlassian.plugin.key}" name="GSDRest">
+    <plugin-info>
+        <description><!-- TODO: add description --> </description>
+        <version>${project.version}</version>
+        <!-- TODO: Add vendor details -->
+        <!--
+        <vendor name="Example Company" url="http://www.example.com"/>
+        -->
+    </plugin-info>
+
+    <macro name='GSDRest' class='GSDRest.ExampleMacro' key='my-macro'>
+        <!-- TODO: Add macro description -->
+        <!-- <description></description> -->
+    </macro>
+</atlassian-plugin>
