@@ -14,6 +14,12 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+
+/**
+ * EmployeeDAOImpl is an implementation of EmployeeDAO
+ * @author shivs
+ *
+ */
 @Repository(value="EmployeeDAO")
 public class EmployeeDAOImpl implements EmployeeDAO {
 	
